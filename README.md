@@ -24,8 +24,10 @@ php artisan key:generate
 ```
 Run Mingration
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
+> It will create Employee fake records as I have seed `Employee` model.
+> To create admin user, you can run `php artisan make:filament-user` command
 
 ### How it works
 
